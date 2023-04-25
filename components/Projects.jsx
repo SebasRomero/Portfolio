@@ -7,7 +7,7 @@ import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
   return (
-    <div className="w-full">
+    <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-2xl tracking-widest uppercase text-teal-300">
           Projects
@@ -18,19 +18,19 @@ const Projects = () => {
             tittle="Gaming Web"
             description="ReactJS and Golang"
             backgroundImg={webGaming}
-            projectUrl="/webgaming"
+            projectUrl="/projects/webgaming"
           />
           <ProjectItem
             tittle="News Web"
             description="HTML and CSS"
             backgroundImg={webNews}
-            projectUrl="/webnews"
+            projectUrl="/projects/webnews"
           />
           <ProjectItem
-            tittle="ReactJS"
+            tittle="React Form"
             description="ReactJS"
             backgroundImg={reactForm}
-            projectUrl="/reactform"
+            projectUrl="/projects/reactform"
           />
         </div>
       </div>
