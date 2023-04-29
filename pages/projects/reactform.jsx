@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import reactFormImage from "../../public/assets/projects/form_react.png";
 import {RiRadioButtonFill} from 'react-icons/ri'
+import Link from 'next/link';
 
 const reactform = () => {
   return (
@@ -20,7 +21,9 @@ const reactform = () => {
         <h2>Overview</h2>
         <p>This simple form was made using React and React Hooks, showing the new registers.
         </p>
+        <Link href="https://github.com/SebasRomero/form-with-react">
         <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+        </Link>
       </div>
       <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
         <div className='p-2'>

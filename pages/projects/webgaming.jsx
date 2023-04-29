@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import webGamingImg from "../../public/assets/projects/web_gaming.png";
 import {RiRadioButtonFill} from 'react-icons/ri'
+import Link from 'next/link';
 
 const webgaming = () => {
   return (
@@ -21,7 +22,9 @@ const webgaming = () => {
           <p>This simple page was made consuming with Golang (backend) a games api when I try to show
             my favorites games from my childhood, this using ReactJs and TailwindCss.
           </p>
+          <Link href="https://github.com/SebasRomero/web_gaming">
           <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+          </Link>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='p-2'>

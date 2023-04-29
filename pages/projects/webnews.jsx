@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import webNews from "../../public/assets/projects/news.png";
 import {RiRadioButtonFill} from 'react-icons/ri'
+import Link from 'next/link';
 
 const webnews = () => {
   return (
@@ -20,7 +21,9 @@ const webnews = () => {
         <h2>Overview</h2>
         <p>This simple page was made only using html and css as my first frontend page.
         </p>
+        <Link href="https://github.com/SebasRomero/TechNews">
         <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+        </Link>
       </div>
       <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
         <div className='p-2'>
