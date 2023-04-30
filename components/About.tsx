@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import software from "../public/assets/software.png"
 
 const About = () => {
   return (
@@ -20,7 +21,7 @@ const About = () => {
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
             <Image className='rounded-xl'
-                src="/../public/assets/software.png"
+                src={software}
                 width="900"
                 height="200"
                 alt="/"

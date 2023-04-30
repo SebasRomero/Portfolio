@@ -5,6 +5,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import getInTouch from "../public/assets/getintouch.jpg"
 
 const ContactForm = () => {
 
@@ -54,7 +55,7 @@ const ContactForm = () => {
                             <div className="lg:p-4 h-full">
                                 <Image
                                     className="rounded-xl hover:scale-105 ease-in duration-300"
-                                    src="/../public/assets/getintouch.jpg"
+                                    src={getInTouch}
                                     width="900"
                                     height="60"
                                     alt="/"
