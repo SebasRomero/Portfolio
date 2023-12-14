@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div>
     <Head>
-      <title>Sebastian | Full-Stack Developer</title>
+      <title>Sebastian | Back-end Developer</title>
     </Head>
     <Main/>
     <About/>
