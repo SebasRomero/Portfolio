@@ -62,7 +62,7 @@ const ContactForm = () => {
                                 ></Image>
                                 <div>
                                     <h2 className="py-2">Sebastian Romero</h2>
-                                    <p>Full-Stack Developer</p>
+                                    <p>Back-end Developer</p>
                                     <p className="py-4">I am excited to work with you! Contact me and let's talk.</p>
                                 </div>
                                 <div>

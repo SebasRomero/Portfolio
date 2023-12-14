@@ -12,9 +12,9 @@ const Main = () => {
           <h1 className="py-4 text-gray-700">
             Hi, I'm <span className="text-teal-300">Sebastian</span>
           </h1>
-          <h1 className="py-4 text-gray-700">A Full-Stack Developer</h1>
+          <h1 className="py-4 text-gray-700">A Back-end Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            I'm a full-stack developer who is interested to do all about
+            I'm a back-end developer who is interested to do all about
             software creation, who's always trying to learn new 
             technologies to be able to use in my projects.
           </p>
